@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/res/values-eu/values.xml -->
+    <eat-comment/>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"<ns1:g id="APP_NAME">%1$s</ns1:g> aplikazioak arazoak ditu Google Play zerbitzuekin. Saiatu berriro."</string>
+</resources>

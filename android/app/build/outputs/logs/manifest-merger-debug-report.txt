@@ -1,0 +1,643 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/devstar/Documents/vurve-app/android/app/src/main/AndroidManifest.xml:1:1-31:12
+	package
+		ADDED from /home/devstar/Documents/vurve-app/android/app/src/main/AndroidManifest.xml:2:5-24
+		INJECTED from /home/devstar/Documents/vurve-app/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/devstar/Documents/vurve-app/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /home/devstar/Documents/vurve-app/android/app/src/main/AndroidManifest.xml:4:5-30
+		INJECTED from /home/devstar/Documents/vurve-app/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/devstar/Documents/vurve-app/android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		ADDED from /home/devstar/Documents/vurve-app/android/app/src/main/AndroidManifest.xml:3:5-28
+		INJECTED from /home/devstar/Documents/vurve-app/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/devstar/Documents/vurve-app/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/devstar/Documents/vurve-app/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /home/devstar/Documents/vurve-app/android/app/src/main/AndroidManifest.xml:6:5-67
+MERGED from [com.google.firebase:firebase-analytics:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/10.0.1/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/AndroidManifest.xml:20:5-66
+MERGED from [com.airbnb.android:react-native-maps:0.7.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.airbnb.android/react-native-maps/0.7.1/AndroidManifest.xml:9:5-67
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.4.0/AndroidManifest.xml:21:5-66
+	android:name
+		ADDED from /home/devstar/Documents/vurve-app/android/app/src/main/AndroidManifest.xml:6:22-64
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /home/devstar/Documents/vurve-app/android/app/src/main/AndroidManifest.xml:7:5-77
+MERGED from [com.facebook.react:react-native:0.39.2] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.39.2/AndroidManifest.xml:11:5-78
+MERGED from [com.facebook.react:react-native:0.39.2] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.39.2/AndroidManifest.xml:11:5-78
+MERGED from [com.facebook.react:react-native:0.39.2] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.39.2/AndroidManifest.xml:11:5-78
+MERGED from [com.facebook.react:react-native:0.39.2] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.39.2/AndroidManifest.xml:11:5-78
+MERGED from [com.facebook.react:react-native:0.39.2] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.39.2/AndroidManifest.xml:11:5-78
+	android:name
+		ADDED from /home/devstar/Documents/vurve-app/android/app/src/main/AndroidManifest.xml:7:22-75
+uses-sdk
+ADDED from /home/devstar/Documents/vurve-app/android/app/src/main/AndroidManifest.xml:9:5-11:41
+MERGED from [Vurve:react-native-awesome-card-io:unspecified] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/Vurve/react-native-awesome-card-io/unspecified/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.39.2] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.39.2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:23.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:recyclerview-v7:23.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:21:5-23:54
+MERGED from [com.facebook.fresco:fresco:0.11.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/0.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:0.11.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:21:5-23:54
+MERGED from [com.facebook.fresco:fbcore:0.11.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:0.11.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:0.11.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:21:5-23:54
+MERGED from [com.facebook.fresco:fbcore:0.11.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:0.11.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/0.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:21:5-23:54
+MERGED from [com.facebook.fresco:fbcore:0.11.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:0.11.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/0.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:0.11.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:0.11.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:21:5-23:54
+MERGED from [com.facebook.fresco:fbcore:0.11.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:0.11.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/0.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:21:5-23:54
+MERGED from [com.facebook.fresco:fbcore:0.11.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.1.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/AndroidManifest.xml:2:3-70
+MERGED from [io.card:android-sdk:5.4.2] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/io.card/android-sdk/5.4.2/AndroidManifest.xml:5:5-7:41
+MERGED from [Vurve:react-native-fcm:unspecified] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/Vurve/react-native-fcm/unspecified/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.39.2] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.39.2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:23.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:recyclerview-v7:23.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:21:5-23:54
+MERGED from [com.facebook.fresco:fresco:0.11.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/0.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:0.11.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:21:5-23:54
+MERGED from [com.facebook.fresco:fbcore:0.11.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:0.11.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:0.11.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:21:5-23:54
+MERGED from [com.facebook.fresco:fbcore:0.11.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:0.11.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/0.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:21:5-23:54
+MERGED from [com.facebook.fresco:fbcore:0.11.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:0.11.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/0.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:0.11.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:0.11.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:21:5-23:54
+MERGED from [com.facebook.fresco:fbcore:0.11.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:0.11.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/0.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:21:5-23:54
+MERGED from [com.facebook.fresco:fbcore:0.11.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.1.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/AndroidManifest.xml:2:3-70
+MERGED from [com.google.firebase:firebase-core:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-core/10.0.1/AndroidManifest.xml:4:5-42
+MERGED from [com.google.firebase:firebase-analytics:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:17:5-42
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:21:5-23:54
+MERGED from [com.google.firebase:firebase-common:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.0.1/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:17:5-42
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:21:5-23:54
+MERGED from [com.google.android.gms:play-services-tasks:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.0.1/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:17:5-42
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:21:5-23:54
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/10.0.1/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:17:5-42
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:21:5-23:54
+MERGED from [com.google.firebase:firebase-iid:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:17:5-42
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:21:5-23:54
+MERGED from [com.google.firebase:firebase-common:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.0.1/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:17:5-42
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:21:5-23:54
+MERGED from [com.google.android.gms:play-services-tasks:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.0.1/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:17:5-42
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:21:5-23:54
+MERGED from [com.google.firebase:firebase-common:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.0.1/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:17:5-42
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:21:5-23:54
+MERGED from [com.google.android.gms:play-services-tasks:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.0.1/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:17:5-42
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:21:5-23:54
+MERGED from [com.google.firebase:firebase-messaging:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/10.0.1/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:17:5-42
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:21:5-23:54
+MERGED from [com.google.firebase:firebase-iid:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:17:5-42
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:21:5-23:54
+MERGED from [com.google.firebase:firebase-common:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.0.1/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:17:5-42
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:21:5-23:54
+MERGED from [com.google.android.gms:play-services-tasks:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.0.1/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:17:5-42
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:21:5-23:54
+MERGED from [com.google.firebase:firebase-common:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.0.1/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:17:5-42
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:21:5-23:54
+MERGED from [com.google.android.gms:play-services-tasks:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.0.1/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:17:5-42
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:21:5-23:54
+MERGED from [me.leolin:ShortcutBadger:1.1.10] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/me.leolin/ShortcutBadger/1.1.10/AndroidManifest.xml:7:5-9:41
+MERGED from [Vurve:react-native-video:unspecified] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/Vurve/react-native-video/unspecified/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.39.2] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.39.2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:23.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:recyclerview-v7:23.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:21:5-23:54
+MERGED from [com.facebook.fresco:fresco:0.11.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/0.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:0.11.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:21:5-23:54
+MERGED from [com.facebook.fresco:fbcore:0.11.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:0.11.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:0.11.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:21:5-23:54
+MERGED from [com.facebook.fresco:fbcore:0.11.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:0.11.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/0.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:21:5-23:54
+MERGED from [com.facebook.fresco:fbcore:0.11.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:0.11.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/0.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:0.11.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:0.11.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:21:5-23:54
+MERGED from [com.facebook.fresco:fbcore:0.11.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:0.11.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/0.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:21:5-23:54
+MERGED from [com.facebook.fresco:fbcore:0.11.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.1.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/AndroidManifest.xml:2:3-70
+MERGED from [com.yqritc:android-scalablevideoview:1.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.yqritc/android-scalablevideoview/1.0.1/AndroidManifest.xml:8:5-10:41
+MERGED from [com.airbnb.android:react-native-maps:0.7.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.airbnb.android/react-native-maps/0.7.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.4.0/AndroidManifest.xml:26:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:17:5-42
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:21:5-23:54
+MERGED from [com.google.android.gms:play-services-base:8.4.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:17:5-42
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:21:5-23:54
+MERGED from [com.facebook.react:react-native:0.39.2] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.39.2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:23.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:recyclerview-v7:23.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:21:5-23:54
+MERGED from [com.facebook.fresco:fresco:0.11.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/0.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:0.11.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:21:5-23:54
+MERGED from [com.facebook.fresco:fbcore:0.11.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:0.11.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:0.11.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:21:5-23:54
+MERGED from [com.facebook.fresco:fbcore:0.11.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:0.11.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/0.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:21:5-23:54
+MERGED from [com.facebook.fresco:fbcore:0.11.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:0.11.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/0.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:0.11.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:0.11.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:21:5-23:54
+MERGED from [com.facebook.fresco:fbcore:0.11.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:0.11.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/0.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:21:5-23:54
+MERGED from [com.facebook.fresco:fbcore:0.11.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.1.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/AndroidManifest.xml:2:3-70
+MERGED from [com.android.support:appcompat-v7:23.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:21:5-23:54
+MERGED from [com.facebook.react:react-native:0.39.2] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.39.2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:23.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:recyclerview-v7:23.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:21:5-23:54
+MERGED from [com.facebook.fresco:fresco:0.11.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/0.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:0.11.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:21:5-23:54
+MERGED from [com.facebook.fresco:fbcore:0.11.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:0.11.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:0.11.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:21:5-23:54
+MERGED from [com.facebook.fresco:fbcore:0.11.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:0.11.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/0.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:21:5-23:54
+MERGED from [com.facebook.fresco:fbcore:0.11.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:0.11.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/0.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:0.11.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:0.11.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:21:5-23:54
+MERGED from [com.facebook.fresco:fbcore:0.11.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:0.11.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/0.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:21:5-23:54
+MERGED from [com.facebook.fresco:fbcore:0.11.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.1.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/AndroidManifest.xml:2:3-70
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:23:9-51
+	android:targetSdkVersion
+		ADDED from /home/devstar/Documents/vurve-app/android/app/src/main/AndroidManifest.xml:11:9-38
+		INJECTED from /home/devstar/Documents/vurve-app/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/devstar/Documents/vurve-app/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /home/devstar/Documents/vurve-app/android/app/src/main/AndroidManifest.xml:10:9-35
+		INJECTED from /home/devstar/Documents/vurve-app/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/devstar/Documents/vurve-app/android/app/src/main/AndroidManifest.xml
+application
+ADDED from /home/devstar/Documents/vurve-app/android/app/src/main/AndroidManifest.xml:13:5-29:19
+MERGED from [com.facebook.react:react-native:0.39.2] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.39.2/AndroidManifest.xml:13:5-20
+MERGED from [com.android.support:appcompat-v7:23.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.facebook.soloader:soloader:0.1.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/AndroidManifest.xml:3:3-17
+MERGED from [org.webkit:android-jsc:r174650] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/org.webkit/android-jsc/r174650/AndroidManifest.xml:2:3-17
+MERGED from [io.card:android-sdk:5.4.2] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/io.card/android-sdk/5.4.2/AndroidManifest.xml:19:5-24:19
+MERGED from [com.facebook.react:react-native:0.39.2] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.39.2/AndroidManifest.xml:13:5-20
+MERGED from [com.android.support:appcompat-v7:23.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.facebook.soloader:soloader:0.1.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/AndroidManifest.xml:3:3-17
+MERGED from [org.webkit:android-jsc:r174650] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/org.webkit/android-jsc/r174650/AndroidManifest.xml:2:3-17
+MERGED from [com.google.firebase:firebase-core:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-core/10.0.1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/AndroidManifest.xml:24:5-33:19
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.google.firebase:firebase-common:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.0.1/AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-tasks:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.0.1/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/10.0.1/AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.google.firebase:firebase-iid:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/AndroidManifest.xml:28:5-50:19
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.google.firebase:firebase-common:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.0.1/AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-tasks:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.0.1/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.google.firebase:firebase-common:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.0.1/AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-tasks:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.0.1/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.google.firebase:firebase-messaging:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/10.0.1/AndroidManifest.xml:19:5-29:19
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.google.firebase:firebase-iid:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/AndroidManifest.xml:28:5-50:19
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.google.firebase:firebase-common:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.0.1/AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-tasks:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.0.1/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.google.firebase:firebase-common:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.0.1/AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-tasks:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.0.1/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.facebook.react:react-native:0.39.2] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.39.2/AndroidManifest.xml:13:5-20
+MERGED from [com.android.support:appcompat-v7:23.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.facebook.soloader:soloader:0.1.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/AndroidManifest.xml:3:3-17
+MERGED from [org.webkit:android-jsc:r174650] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/org.webkit/android-jsc/r174650/AndroidManifest.xml:2:3-17
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.4.0/AndroidManifest.xml:27:5-20
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.facebook.react:react-native:0.39.2] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.39.2/AndroidManifest.xml:13:5-20
+MERGED from [com.android.support:appcompat-v7:23.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.facebook.soloader:soloader:0.1.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/AndroidManifest.xml:3:3-17
+MERGED from [org.webkit:android-jsc:r174650] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/org.webkit/android-jsc/r174650/AndroidManifest.xml:2:3-17
+MERGED from [com.android.support:appcompat-v7:23.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.facebook.react:react-native:0.39.2] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.39.2/AndroidManifest.xml:13:5-20
+MERGED from [com.android.support:appcompat-v7:23.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.0.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.facebook.soloader:soloader:0.1.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/AndroidManifest.xml:3:3-17
+MERGED from [org.webkit:android-jsc:r174650] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/org.webkit/android-jsc/r174650/AndroidManifest.xml:2:3-17
+	android:label
+		ADDED from /home/devstar/Documents/vurve-app/android/app/src/main/AndroidManifest.xml:16:7-39
+	android:allowBackup
+		ADDED from /home/devstar/Documents/vurve-app/android/app/src/main/AndroidManifest.xml:15:7-33
+	android:icon
+		ADDED from /home/devstar/Documents/vurve-app/android/app/src/main/AndroidManifest.xml:17:7-41
+	android:theme
+		ADDED from /home/devstar/Documents/vurve-app/android/app/src/main/AndroidManifest.xml:18:7-38
+	android:name
+		ADDED from /home/devstar/Documents/vurve-app/android/app/src/main/AndroidManifest.xml:14:7-38
+activity#com.vurve.MainActivity
+ADDED from /home/devstar/Documents/vurve-app/android/app/src/main/AndroidManifest.xml:19:7-27:18
+	android:label
+		ADDED from /home/devstar/Documents/vurve-app/android/app/src/main/AndroidManifest.xml:21:9-41
+	android:configChanges
+		ADDED from /home/devstar/Documents/vurve-app/android/app/src/main/AndroidManifest.xml:22:9-79
+	android:name
+		ADDED from /home/devstar/Documents/vurve-app/android/app/src/main/AndroidManifest.xml:20:9-37
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/devstar/Documents/vurve-app/android/app/src/main/AndroidManifest.xml:23:9-26:25
+action#android.intent.action.MAIN
+ADDED from /home/devstar/Documents/vurve-app/android/app/src/main/AndroidManifest.xml:24:13-65
+	android:name
+		ADDED from /home/devstar/Documents/vurve-app/android/app/src/main/AndroidManifest.xml:24:21-62
+category#android.intent.category.LAUNCHER
+ADDED from /home/devstar/Documents/vurve-app/android/app/src/main/AndroidManifest.xml:25:13-73
+	android:name
+		ADDED from /home/devstar/Documents/vurve-app/android/app/src/main/AndroidManifest.xml:25:23-70
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from /home/devstar/Documents/vurve-app/android/app/src/main/AndroidManifest.xml:28:7-84
+	android:name
+		ADDED from /home/devstar/Documents/vurve-app/android/app/src/main/AndroidManifest.xml:28:17-81
+uses-permission#android.permission.VIBRATE
+ADDED from [Vurve:react-native-awesome-card-io:unspecified] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/Vurve/react-native-awesome-card-io/unspecified/AndroidManifest.xml:11:5-66
+MERGED from [io.card:android-sdk:5.4.2] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/io.card/android-sdk/5.4.2/AndroidManifest.xml:10:5-66
+	android:name
+		ADDED from [Vurve:react-native-awesome-card-io:unspecified] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/Vurve/react-native-awesome-card-io/unspecified/AndroidManifest.xml:11:22-63
+uses-permission#android.permission.CAMERA
+ADDED from [Vurve:react-native-awesome-card-io:unspecified] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/Vurve/react-native-awesome-card-io/unspecified/AndroidManifest.xml:12:5-65
+MERGED from [io.card:android-sdk:5.4.2] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/io.card/android-sdk/5.4.2/AndroidManifest.xml:9:5-65
+	android:name
+		ADDED from [Vurve:react-native-awesome-card-io:unspecified] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/Vurve/react-native-awesome-card-io/unspecified/AndroidManifest.xml:12:22-62
+uses-feature#android.hardware.camera
+ADDED from [Vurve:react-native-awesome-card-io:unspecified] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/Vurve/react-native-awesome-card-io/unspecified/AndroidManifest.xml:14:5-16:36
+MERGED from [io.card:android-sdk:5.4.2] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/io.card/android-sdk/5.4.2/AndroidManifest.xml:12:5-14:36
+	android:required
+		ADDED from [Vurve:react-native-awesome-card-io:unspecified] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/Vurve/react-native-awesome-card-io/unspecified/AndroidManifest.xml:16:9-33
+	android:name
+		ADDED from [Vurve:react-native-awesome-card-io:unspecified] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/Vurve/react-native-awesome-card-io/unspecified/AndroidManifest.xml:15:9-47
+uses-feature#android.hardware.camera.autofocus
+ADDED from [Vurve:react-native-awesome-card-io:unspecified] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/Vurve/react-native-awesome-card-io/unspecified/AndroidManifest.xml:17:5-19:36
+MERGED from [io.card:android-sdk:5.4.2] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/io.card/android-sdk/5.4.2/AndroidManifest.xml:15:5-17:36
+	android:required
+		ADDED from [Vurve:react-native-awesome-card-io:unspecified] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/Vurve/react-native-awesome-card-io/unspecified/AndroidManifest.xml:19:9-33
+	android:name
+		ADDED from [Vurve:react-native-awesome-card-io:unspecified] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/Vurve/react-native-awesome-card-io/unspecified/AndroidManifest.xml:18:9-57
+uses-feature#android.hardware.camera.flash
+ADDED from [Vurve:react-native-awesome-card-io:unspecified] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/Vurve/react-native-awesome-card-io/unspecified/AndroidManifest.xml:20:5-22:36
+	android:required
+		ADDED from [Vurve:react-native-awesome-card-io:unspecified] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/Vurve/react-native-awesome-card-io/unspecified/AndroidManifest.xml:22:9-33
+	android:name
+		ADDED from [Vurve:react-native-awesome-card-io:unspecified] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/Vurve/react-native-awesome-card-io/unspecified/AndroidManifest.xml:21:9-53
+android:uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+IMPLIED from /home/devstar/Documents/vurve-app/android/app/src/main/AndroidManifest.xml:1:1-31:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+android:uses-permission#android.permission.READ_PHONE_STATE
+IMPLIED from /home/devstar/Documents/vurve-app/android/app/src/main/AndroidManifest.xml:1:1-31:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+android:uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from /home/devstar/Documents/vurve-app/android/app/src/main/AndroidManifest.xml:1:1-31:12 reason: org.webkit.android_jsc requested WRITE_EXTERNAL_STORAGE
+activity#io.card.payment.CardIOActivity
+ADDED from [io.card:android-sdk:5.4.2] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/io.card/android-sdk/5.4.2/AndroidManifest.xml:20:9-22:66
+	android:configChanges
+		ADDED from [io.card:android-sdk:5.4.2] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/io.card/android-sdk/5.4.2/AndroidManifest.xml:22:13-63
+	android:name
+		ADDED from [io.card:android-sdk:5.4.2] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/io.card/android-sdk/5.4.2/AndroidManifest.xml:21:13-58
+activity#io.card.payment.DataEntryActivity
+ADDED from [io.card:android-sdk:5.4.2] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/io.card/android-sdk/5.4.2/AndroidManifest.xml:23:9-70
+	android:name
+		ADDED from [io.card:android-sdk:5.4.2] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/io.card/android-sdk/5.4.2/AndroidManifest.xml:23:19-67
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/10.0.1/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/AndroidManifest.xml:19:5-78
+MERGED from [com.google.firebase:firebase-iid:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/AndroidManifest.xml:19:5-78
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.4.0/AndroidManifest.xml:20:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/AndroidManifest.xml:21:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/10.0.1/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-iid:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/AndroidManifest.xml:22:22-65
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/10.0.1/AndroidManifest.xml:25:7-26:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/AndroidManifest.xml:25:90-112
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/AndroidManifest.xml:25:113-137
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/AndroidManifest.xml:25:17-89
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/AndroidManifest.xml:27:7-31:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/AndroidManifest.xml:27:162-184
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/AndroidManifest.xml:27:105-161
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/AndroidManifest.xml:27:17-104
+intent-filter#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/AndroidManifest.xml:28:11-30:27
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/AndroidManifest.xml:29:15-76
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/AndroidManifest.xml:29:23-74
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/10.0.1/AndroidManifest.xml:27:7-137
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/AndroidManifest.xml:32:88-110
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/AndroidManifest.xml:32:111-135
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/AndroidManifest.xml:32:16-87
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:20:9-121
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:20:9-121
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:20:9-121
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:20:9-121
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:20:9-121
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:20:9-121
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:20:9-121
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:20:9-121
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:20:9-121
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:20:9-121
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:20:9-121
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:20:9-121
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:20:9-121
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:20:9-121
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:20:9-121
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:20:9-121
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:20:20-65
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.0.1/AndroidManifest.xml:6:9-194
+MERGED from [com.google.firebase:firebase-common:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.0.1/AndroidManifest.xml:6:9-194
+MERGED from [com.google.firebase:firebase-common:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.0.1/AndroidManifest.xml:6:9-194
+MERGED from [com.google.firebase:firebase-common:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.0.1/AndroidManifest.xml:6:9-194
+MERGED from [com.google.firebase:firebase-common:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.0.1/AndroidManifest.xml:6:9-194
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.0.1/AndroidManifest.xml:6:19-78
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.0.1/AndroidManifest.xml:6:144-168
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.0.1/AndroidManifest.xml:6:169-192
+	android:name
+		ADDED from [com.google.firebase:firebase-common:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.0.1/AndroidManifest.xml:6:79-143
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/AndroidManifest.xml:22:5-81
+MERGED from [com.google.firebase:firebase-iid:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/AndroidManifest.xml:22:5-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/AndroidManifest.xml:22:22-79
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/AndroidManifest.xml:24:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/AndroidManifest.xml:24:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/AndroidManifest.xml:24:17-71
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/AndroidManifest.xml:26:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/AndroidManifest.xml:26:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/AndroidManifest.xml:30:9-36:20
+MERGED from [com.google.firebase:firebase-iid:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/AndroidManifest.xml:30:9-36:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/AndroidManifest.xml:30:85-108
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/AndroidManifest.xml:30:109-169
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/AndroidManifest.xml:30:19-84
+intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTRATION
+ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/AndroidManifest.xml:31:13-35:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/AndroidManifest.xml:32:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/AndroidManifest.xml:32:25-78
+action#com.google.android.c2dm.intent.REGISTRATION
+ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/AndroidManifest.xml:33:17-85
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/AndroidManifest.xml:33:25-83
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/AndroidManifest.xml:34:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/AndroidManifest.xml:34:27-58
+receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
+ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/AndroidManifest.xml:40:9-119
+MERGED from [com.google.firebase:firebase-iid:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/AndroidManifest.xml:40:9-119
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/AndroidManifest.xml:40:93-117
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/AndroidManifest.xml:40:19-92
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/AndroidManifest.xml:44:9-48:19
+MERGED from [com.google.firebase:firebase-iid:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/AndroidManifest.xml:44:9-48:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/AndroidManifest.xml:44:83-106
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/AndroidManifest.xml:44:18-82
+intent-filter#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/AndroidManifest.xml:45:13-47:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/AndroidManifest.xml:45:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/AndroidManifest.xml:46:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/AndroidManifest.xml:46:25-77
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/10.0.1/AndroidManifest.xml:23:9-27:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/10.0.1/AndroidManifest.xml:23:88-111
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/10.0.1/AndroidManifest.xml:23:18-87
+intent-filter#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/10.0.1/AndroidManifest.xml:24:13-26:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-messaging:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/10.0.1/AndroidManifest.xml:24:28-51
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/10.0.1/AndroidManifest.xml:25:17-77
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/10.0.1/AndroidManifest.xml:25:25-75
+permission#com.vurve.permission.C2D_MESSAGE
+MERGED from [com.google.firebase:firebase-iid:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/AndroidManifest.xml:24:5-109
+uses-permission#com.vurve.permission.C2D_MESSAGE
+MERGED from [com.google.firebase:firebase-iid:10.0.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/AndroidManifest.xml:26:5-78
+uses-permission#com.sec.android.provider.badge.permission.READ
+ADDED from [me.leolin:ShortcutBadger:1.1.10] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/me.leolin/ShortcutBadger/1.1.10/AndroidManifest.xml:19:5-86
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.10] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/me.leolin/ShortcutBadger/1.1.10/AndroidManifest.xml:19:22-83
+uses-permission#com.sec.android.provider.badge.permission.WRITE
+ADDED from [me.leolin:ShortcutBadger:1.1.10] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/me.leolin/ShortcutBadger/1.1.10/AndroidManifest.xml:20:5-87
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.10] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/me.leolin/ShortcutBadger/1.1.10/AndroidManifest.xml:20:22-84
+uses-permission#com.htc.launcher.permission.READ_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.10] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/me.leolin/ShortcutBadger/1.1.10/AndroidManifest.xml:23:5-81
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.10] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/me.leolin/ShortcutBadger/1.1.10/AndroidManifest.xml:23:22-78
+uses-permission#com.htc.launcher.permission.UPDATE_SHORTCUT
+ADDED from [me.leolin:ShortcutBadger:1.1.10] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/me.leolin/ShortcutBadger/1.1.10/AndroidManifest.xml:24:5-83
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.10] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/me.leolin/ShortcutBadger/1.1.10/AndroidManifest.xml:24:22-80
+uses-permission#com.sonyericsson.home.permission.BROADCAST_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.10] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/me.leolin/ShortcutBadger/1.1.10/AndroidManifest.xml:27:5-88
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.10] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/me.leolin/ShortcutBadger/1.1.10/AndroidManifest.xml:27:22-85
+uses-permission#com.sonymobile.home.permission.PROVIDER_INSERT_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.10] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/me.leolin/ShortcutBadger/1.1.10/AndroidManifest.xml:28:5-92
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.10] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/me.leolin/ShortcutBadger/1.1.10/AndroidManifest.xml:28:22-89
+uses-permission#com.anddoes.launcher.permission.UPDATE_COUNT
+ADDED from [me.leolin:ShortcutBadger:1.1.10] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/me.leolin/ShortcutBadger/1.1.10/AndroidManifest.xml:31:5-84
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.10] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/me.leolin/ShortcutBadger/1.1.10/AndroidManifest.xml:31:22-81
+uses-permission#com.majeur.launcher.permission.UPDATE_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.10] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/me.leolin/ShortcutBadger/1.1.10/AndroidManifest.xml:34:5-83
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.10] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/me.leolin/ShortcutBadger/1.1.10/AndroidManifest.xml:34:22-80
+uses-permission#com.huawei.android.launcher.permission.CHANGE_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.10] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/me.leolin/ShortcutBadger/1.1.10/AndroidManifest.xml:37:5-91
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.10] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/me.leolin/ShortcutBadger/1.1.10/AndroidManifest.xml:37:22-88
+uses-permission#com.huawei.android.launcher.permission.READ_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.10] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/me.leolin/ShortcutBadger/1.1.10/AndroidManifest.xml:38:5-92
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.10] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/me.leolin/ShortcutBadger/1.1.10/AndroidManifest.xml:38:22-89
+uses-permission#com.huawei.android.launcher.permission.WRITE_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.10] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/me.leolin/ShortcutBadger/1.1.10/AndroidManifest.xml:39:5-93
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.10] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/me.leolin/ShortcutBadger/1.1.10/AndroidManifest.xml:39:22-90
+uses-permission#android.permission.READ_APP_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.10] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/me.leolin/ShortcutBadger/1.1.10/AndroidManifest.xml:42:5-73
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.10] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/me.leolin/ShortcutBadger/1.1.10/AndroidManifest.xml:42:22-70
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from [com.airbnb.android:react-native-maps:0.7.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.airbnb.android/react-native-maps/0.7.1/AndroidManifest.xml:10:5-81
+	android:name
+		ADDED from [com.airbnb.android:react-native-maps:0.7.1] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.airbnb.android/react-native-maps/0.7.1/AndroidManifest.xml:10:22-78
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:8.4.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.4.0/AndroidManifest.xml:22:5-24:33
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:8.4.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.4.0/AndroidManifest.xml:23:8-40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:8.4.0] /home/devstar/Documents/vurve-app/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.4.0/AndroidManifest.xml:24:8-31

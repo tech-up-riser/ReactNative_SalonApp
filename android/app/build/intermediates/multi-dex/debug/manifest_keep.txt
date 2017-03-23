@@ -1,0 +1,23 @@
+-keep class com.vurve.MainApplication {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+-keep class com.vurve.MainActivity { <init>(); }
+-keep class com.facebook.react.devsupport.DevSettingsActivity { <init>(); }
+-keep class io.card.payment.CardIOActivity { <init>(); }
+-keep class io.card.payment.DataEntryActivity { <init>(); }
+-keep class com.google.android.gms.measurement.AppMeasurementReceiver { <init>(); }
+-keep class com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver { <init>(); }
+-keep class com.google.android.gms.measurement.AppMeasurementService { <init>(); }
+-keep class com.google.firebase.provider.FirebaseInitProvider { <init>(); }
+-keep class com.google.firebase.iid.FirebaseInstanceIdReceiver { <init>(); }
+-keep class com.google.firebase.iid.FirebaseInstanceIdInternalReceiver { <init>(); }
+-keep class com.google.firebase.iid.FirebaseInstanceIdService { <init>(); }
+-keep class com.google.firebase.messaging.FirebaseMessagingService { <init>(); }
+-keep class com.google.android.gms.common.api.GoogleApiActivity { <init>(); }
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+-keep public class * extends java.lang.annotation.Annotation {
+    *;
+}
